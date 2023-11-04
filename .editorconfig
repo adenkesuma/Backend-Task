@@ -1,0 +1,43 @@
+# top-most Editor config file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.html]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+[*.css]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+[*.js]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+[*.ts]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+[*.tsx]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+[*.jsx]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true

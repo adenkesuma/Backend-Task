@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-bottom: 50px;
+  background-color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  
+  display: flex;
+  justify-content: space-around;    
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px; 
+  color: #ffffff;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: aqua;
+  font-weight: 600;
+}
+
+#delete {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.content {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#product-list {
+  color: #ffffff;
+  gap: 20px;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#product {
+  border: 1px solid #ffffff;
+  list-style: none;
+  padding: 20px;
+  border-radius: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#product span {
+  font-weight: bold;
+  color: cyan;
+}
+
+.form {
+  border-bottom: 1px solid #ffffff;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#nama,
+#tipe,
+#harga {
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}

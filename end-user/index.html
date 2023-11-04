@@ -1,0 +1,49 @@
+<!-- Nama: Aden Kesuma -->
+<!-- Nim: 221111805 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tugas Backend</title>
+</head>
+<body>
+  <div class="form">
+    <h1>Form Tambah Product</h1>
+
+    <input 
+      id="nama"
+      type="text" 
+      placeholder="masukan nama product..."
+    >
+
+    <select name="kat" id="tipe">
+      <option value="elektronik">Elektronik</option>
+      <option value="makanan">Makanan</option>
+      <option value="minuman">Minuman</option>
+    </select>
+
+    <input 
+      id="harga"
+      type="number" 
+      placeholder="masukan harga product..."
+    >
+
+    <button id="tambah-product">
+      Tambah Product
+    </button>
+  </div>   
+
+  <div class="content">
+    <h1>Daftar Produk</h1>
+
+    <div id="product-list">
+    </div>
+  </div> 
+
+
+  <script src="script.js"></script>
+</body>
+</html>
