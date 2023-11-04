@@ -2,4 +2,6 @@
 Simple backend task from university wkwkw
 
 Priview of the website:
-![image](https://github.com/adenkesuma/Backend-Task/assets/101191379/32c222a0-be7c-40ea-91e1-8efacf88966b)
+
+![image](https://github.com/adenkesuma/Backend-Task/assets/101191379/53eded66-823b-4722-9cad-d1c85bcfc321)
+
